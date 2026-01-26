@@ -11,7 +11,7 @@ print(f"Value of A is {A}")
 print(f"Value of B is {B}")
 print()
 Txt = "*"
-print(2 * A * Txt + " " + 3 * B * Txt) #String and Numeric Values can operate together in expression using *
+print(2 * A * Txt + " " + 3 * B * Txt)  #String and Numeric Values can operate together in expression using *
 
 a,b = '2', 3
-print((a + Txt + " ")*b)
+print((a + Txt + " ")*b)  #String and String can operate together in expression using +
