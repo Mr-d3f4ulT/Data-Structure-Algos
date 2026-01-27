@@ -27,4 +27,6 @@ print(int(D))  #Type casting Float to Integer
 
 print(B/A)  #Division operator results in Float
 print(B//A)  #Floor Division operator results in Integer ex - 7.99 becomes 7
-print(B%A)  #Modulus operator results in Remainder Value
+print(B%A)  #Modulus operator results in Remainder Value, remainder is negative if denominator is negative
+print(B**A)  #Exponentiation operator results in Power Value
+print(pow(B,A))  #pow() function also results in Power Value
