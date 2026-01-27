@@ -26,4 +26,5 @@ print(C * D)  #Arithmetic operation between Integer and Float results in Float
 print(int(D))  #Type casting Float to Integer
 
 print(B/A)  #Division operator results in Float
-print(B//A)  #Floor Division operator results in Integer
+print(B//A)  #Floor Division operator results in Integer ex - 7.99 becomes 7
+print(B%A)  #Modulus operator results in Remainder Value
