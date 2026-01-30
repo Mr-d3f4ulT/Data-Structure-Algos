@@ -10,7 +10,7 @@ I use specific branches to maintain a clean environment for each language. Below
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cpp" width="40" height="40"/> C++
 
-**Branch:** `cpp-branch`
+**Branch:** `cpp`
 
 - **Focus:** Low-level memory management and high-performance algorithms.
 - **Featured Project:** \* **Hangman Game:** A CLI-based interactive game focusing on string manipulation and game logic.
@@ -20,7 +20,7 @@ I use specific branches to maintain a clean environment for each language. Below
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> Java
 
-**Branch:** `java-branch`
+**Branch:** `java`
 
 - **Focus:** Object-Oriented Programming (OOP) and Enterprise-grade structure.
 - **Featured Project:** \* **Electricity Bill Generator:** A system designed to calculate utility costs using class inheritance and file handling.
@@ -30,7 +30,7 @@ I use specific branches to maintain a clean environment for each language. Below
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> Python
 
-**Branch:** `python-branch`
+**Branch:** `python`
 
 - **Focus:** Rapid prototyping and clean, readable implementation.
 - **Featured Project:** \* **Tic-Tac-Toe Game:** A logic-based game implementing basic AI/Minimax principles.
@@ -50,8 +50,8 @@ To keep the `main` branch clean and professional, I follow a **feature-branch wo
 
 ```text
 .
-├── C++/             # C++ Source Code & Hangman Project
-├── Java/            # Java Source Code & Electricity Bill Project
-├── Python/          # Python Scripts & Tic-Tac-Toe Project
+├── C++/             # C++ Source Code
+├── Java/            # Java Source Code
+├── Python/          # Python Scripts
 └── README.md
 ```
