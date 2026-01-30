@@ -8,33 +8,33 @@ Welcome to my central repository for algorithm practice and project development.
 
 I use specific branches to maintain a clean environment for each language. Below are the primary languages I use and the featured projects housed within each.
 
-### 🔵 C++ 
-**Branch:** `cpp-branch`  
-* **Focus:** Low-level memory management and high-performance algorithms.
-* **Featured Project:** * **Hangman Game:** A CLI-based interactive game focusing on string manipulation and game logic.
-    * *DSA focus:* STL (Standard Template Library), Pointers, and Recursion.
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cpp" width="40" height="40"/> C++
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cpp" width="40" height="40"/>
+**Branch:** `cpp-branch`
 
----
-
-### 🔴 Java
-**Branch:** `java-branch`  
-* **Focus:** Object-Oriented Programming (OOP) and Enterprise-grade structure.
-* **Featured Project:** * **Electricity Bill Generator:** A system designed to calculate utility costs using class inheritance and file handling.
-    * *DSA focus:* Collections Framework, Trees, and Graphs.
-
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
+- **Focus:** Low-level memory management and high-performance algorithms.
+- **Featured Project:** \* **Hangman Game:** A CLI-based interactive game focusing on string manipulation and game logic.
+  - _DSA focus:_ STL (Standard Template Library), Pointers, and Recursion.
 
 ---
 
-### 🟡 Python
-**Branch:** `python-branch`  
-* **Focus:** Rapid prototyping and clean, readable implementation.
-* **Featured Project:** * **Tic-Tac-Toe Game:** A logic-based game implementing basic AI/Minimax principles.
-    * *DSA focus:* Dynamic Programming, Hashing, and Scripting.
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> Java
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+**Branch:** `java-branch`
+
+- **Focus:** Object-Oriented Programming (OOP) and Enterprise-grade structure.
+- **Featured Project:** \* **Electricity Bill Generator:** A system designed to calculate utility costs using class inheritance and file handling.
+  - _DSA focus:_ Collections Framework, Trees, and Graphs.
+
+---
+
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> Python
+
+**Branch:** `python-branch`
+
+- **Focus:** Rapid prototyping and clean, readable implementation.
+- **Featured Project:** \* **Tic-Tac-Toe Game:** A logic-based game implementing basic AI/Minimax principles.
+  - _DSA focus:_ Dynamic Programming, Hashing, and Scripting.
 
 ---
 
@@ -54,3 +54,4 @@ To keep the `main` branch clean and professional, I follow a **feature-branch wo
 ├── Java/            # Java Source Code & Electricity Bill Project
 ├── Python/          # Python Scripts & Tic-Tac-Toe Project
 └── README.md
+```
