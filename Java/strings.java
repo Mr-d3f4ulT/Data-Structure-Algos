@@ -1,6 +1,6 @@
 class strings {
   public static void main(String[] args) {
-    String message = "New String Example";
+    String message = "   New String Example";
     System.out.println("Original Message : " + message);
     
     System.out.println(message.endsWith("!!")); // false
