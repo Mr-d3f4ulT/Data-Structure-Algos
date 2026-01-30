@@ -7,5 +7,6 @@ public class arrays {
     }
 
     System.out.println();
+    System.out.println("Array Length: " + nums.length);
   }
 }
