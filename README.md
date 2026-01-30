@@ -10,8 +10,6 @@ I use specific branches to maintain a clean environment for each language. Below
 
 ## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cpp" width="40" height="40"/> C++
 
-**Branch:** `cpp`
-
 - **Focus:** Low-level memory management and high-performance algorithms.
 - **Featured Project:** \* **Hangman Game:** A CLI-based interactive game focusing on string manipulation and game logic.
   - _DSA focus:_ STL (Standard Template Library), Pointers, and Recursion.
@@ -20,8 +18,6 @@ I use specific branches to maintain a clean environment for each language. Below
 
 ## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> Java
 
-**Branch:** `java`
-
 - **Focus:** Object-Oriented Programming (OOP) and Enterprise-grade structure.
 - **Featured Project:** \* **Electricity Bill Generator:** A system designed to calculate utility costs using class inheritance and file handling.
   - _DSA focus:_ Collections Framework, Trees, and Graphs.
@@ -29,8 +25,6 @@ I use specific branches to maintain a clean environment for each language. Below
 ---
 
 ## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> Python
-
-**Branch:** `python`
 
 - **Focus:** Rapid prototyping and clean, readable implementation.
 - **Featured Project:** \* **Tic-Tac-Toe Game:** A logic-based game implementing basic AI/Minimax principles.
