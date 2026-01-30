@@ -11,5 +11,10 @@ class strings {
     System.out.println(message.toUpperCase());
     System.out.println(message.compareTo("Another String"));
     System.out.println(message.equals("New String Example")); // true
+    System.out.println(message.indexOf('e')); //gives the index of first occurrence of 'e'
+    System.out.println(message.lastIndexOf('e')); //gives the index of last occurrence of 'e'
+
+    System.out.println(message.trim()); // removes leading and trailing spaces
+    System.out.println(message.subSequence(1, 6));  // gives the subsequence from index 1 to 5
   }
 }
