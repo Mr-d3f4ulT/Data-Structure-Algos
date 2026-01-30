@@ -8,7 +8,7 @@ Welcome to my central repository for algorithm practice and project development.
 
 I use specific branches to maintain a clean environment for each language. Below are the primary languages I use and the featured projects housed within each.
 
-### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cpp" width="40" height="40"/> C++
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cpp" width="40" height="40"/> C++
 
 **Branch:** `cpp`
 
@@ -18,7 +18,7 @@ I use specific branches to maintain a clean environment for each language. Below
 
 ---
 
-### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> Java
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> Java
 
 **Branch:** `java`
 
@@ -28,7 +28,7 @@ I use specific branches to maintain a clean environment for each language. Below
 
 ---
 
-### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> Python
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> Python
 
 **Branch:** `python`
 
