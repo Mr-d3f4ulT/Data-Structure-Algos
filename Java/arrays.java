@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class arrays {
   public static void main(String[] args) {
     int[] nums = {10, 20, 30, 40, 50};
@@ -8,5 +9,6 @@ public class arrays {
 
     System.out.println();
     System.out.println("Array Length: " + nums.length);
+    System.out.println("Array toString(): " + Arrays.toString(nums));
   }
 }
