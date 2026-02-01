@@ -15,5 +15,18 @@ public class wrapperClasses {
 
     // Autoboxing = the automatic conversion that the Java compiler makes between the primitive data types and their corresponding object wrapper classes.
     // Unboxing = the reverse process of converting an object of a wrapper class to its corresponding primitive data type.
+
+    //Autoboxing Example
+    Boolean boolObj = true; 
+    Character charObj = 'A'; 
+    Integer intObj = 100; 
+    Double doubleObj = 99.99; 
+    Float floatObj = 65.55f;
+
+    System.out.println(boolObj.booleanValue()); // Unboxing
+    System.out.println(charObj.charValue());   // Unboxing
+    System.out.println(intObj.intValue());     // Unboxing
+    System.out.println(doubleObj.doubleValue()); // Unboxing
+    System.out.println(floatObj.floatValue()); // Unboxing
   }
 }
