@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class multiDimensionalArrays {
   public static void main(String[] args) {
     int[][] matrix = {
@@ -12,5 +13,9 @@ public class multiDimensionalArrays {
       }
       System.out.println();
     }
+
+    System.out.println("Number of Rows: " + matrix.length);
+    System.out.println("Number of Columns in first row: " + matrix[0].length);
+    System.out.println("Matrix : " + Arrays.deepToString(matrix));
   }
 }
