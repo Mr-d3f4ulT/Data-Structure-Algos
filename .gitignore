@@ -1,0 +1,18 @@
+# Java: Ignore compiled bytecode
+*.class
+*.jar
+
+# Python: Ignore cache and virtual environments
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# C++: Ignore executables and object files
+*.exe
+*.o
+*.out
+
+# System files
+.DS_Store
+Thumbs.db
