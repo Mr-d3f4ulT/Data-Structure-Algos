@@ -1,3 +1,23 @@
+class Car {
+  String model;
+  String color;
+  int year;
+  int price;
+
+  Car(String model, String color, int year, int price) {
+    this.model = model;
+    this.color = color;
+    this.year = year;
+    this.price = price;
+  }
+
+  void drive() {
+    System.out.println("You are driving a " + color + " " + year + " " + model + " priced at $" + price);
+  }
+  void stop() {
+    System.out.println("The " + model + " has stopped.");
+  }
+}
 public class objectOrientedProg {
   public static void main(String[] args) {
     // Object-Oriented Programming (OOP) = programming paradigm based on the concept of "objects", which can contain data and code.
@@ -17,5 +37,8 @@ public class objectOrientedProg {
     // It allows methods to do different things based on the object it is acting upon, even though they share the same name.
 
     System.out.println("Object-Oriented Programming Concepts in Java");
+    Car obj = new Car("Porsche 911 GT3 RS", "Matte Black", 2026, 248500);
+    obj.drive();
+    obj.stop();
   }
 }
