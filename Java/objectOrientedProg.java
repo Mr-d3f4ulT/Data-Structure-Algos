@@ -4,6 +4,12 @@ class Car {
   int year;
   int price;
 
+  Car() {
+    model = "BMW M4 Competition";
+    color = "Black";
+    year = 2025;
+    price = 108800;
+  }
   Car(String model, String color, int year, int price) {
     this.model = model;
     this.color = color;
@@ -37,7 +43,9 @@ public class objectOrientedProg {
     // It allows methods to do different things based on the object it is acting upon, even though they share the same name.
 
     System.out.println("Object-Oriented Programming Concepts in Java");
-    Car obj = new Car("Porsche 911 GT3 RS", "Matte Black", 2026, 248500);
+    Car obj;
+    obj = new Car();
+    //obj = new Car("Porsche 911 GT3 RS", "Matte Black", 2026, 250000);
     obj.drive();
     obj.stop();
   }
