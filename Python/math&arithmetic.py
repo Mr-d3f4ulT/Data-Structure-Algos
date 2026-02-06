@@ -1,3 +1,9 @@
+x = 3.14
+y= 4
+z = 5
+
+print(round(x, 1)) #round to 1 decimal place 
+
 #print sum
 a = 10
 b = 20
