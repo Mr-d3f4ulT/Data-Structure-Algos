@@ -1,8 +1,9 @@
 x = 3.14
-y= 4
+y= -4
 z = 5
 
 print(round(x, 1)) #round to 1 decimal place 
+print(f"The absolute value of y is {abs(y)}") #absolute value of y
 
 #print sum
 a = 10
@@ -36,3 +37,7 @@ print(B//A)  #Floor Division operator results in Integer ex - 7.99 becomes 7
 print(B%A)  #Modulus operator results in Remainder Value, remainder is negative if denominator is negative
 print(B**A)  #Exponentiation operator results in Power Value
 print(pow(B,A))  #pow() function also results in Power Value
+
+
+print(f"The maximum value among A, B and C is {max(A,B,C, D)}")  #max() function returns the maximum value among the arguments
+print(f"The minimum value among A, B and C is {min(A,B,C, D)}")  #min() function returns the minimum value among the arguments
