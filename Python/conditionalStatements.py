@@ -32,3 +32,8 @@ elif (b >= a) and (b >= c):
 else:
     largest = c
     print(f"The largest number among {a}, {b} and {c} is {largest}")
+
+#CONDITIONAL EXPRESSION (TERNARY OPERATOR)  
+num = 5
+result = "Even" if num % 2 == 0 else "Odd"
+print(f"The number {num} is {result}")
