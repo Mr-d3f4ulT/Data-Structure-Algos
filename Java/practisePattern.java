@@ -120,6 +120,41 @@ class pattern {
       System.out.println(); 
     }
   }
+  void butterflyPattern(int n) {
+    //Outer loop for upper half of the butterfly
+    for(i = 1; i <= n; i++) {
+      //Inner loop for printing stars for left wing of the butterfly
+      for(j = 1; j <= i; j++) {
+        System.out.print("*");
+      }
+      //Inner loop for spaces between the wings of the butterfly
+      for(k = 1; k <= 2 * (n - i); k++) {
+        System.out.print(" ");
+      }
+      //Inner loop for printing stars for right wing of the butterfly
+      for(j = 1; j <= i; j++) {
+        System.out.print("*");
+      }
+      System.out.println();
+    }
+
+    //Outer loop for the lower half of the butterfly
+    for(i = n - 1; i >= 1; i--) {
+      //Inner loop for printing stars for left wing of the butterfly
+      for(j = 1; j <= i; j++) {
+        System.out.print("*");
+      }
+      //Inner loop for spaces between the wings of the butterfly
+      for(k = 1; k <= 2 * (n - i); k++) {
+        System.out.print(" ");
+      }
+      //Inner loop for printing stars for right wing of the butterfly
+      for(j = 1; j <= i; j++) {
+        System.out.print("*");
+      }
+      System.out.println();
+    }
+  }
 }
 public class practisePattern {
   public static void main(String[] args) {
@@ -132,6 +167,7 @@ public class practisePattern {
     //p.zeroOneTriangle(5);
     //p.palindromeTriangle(5);
     //p.rhombus(5);
-    p.diamondPattern(5);
+    //p.diamondPattern(5);
+    p.butterflyPattern(5);
   }
 }
