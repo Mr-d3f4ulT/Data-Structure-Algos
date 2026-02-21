@@ -4,7 +4,12 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.regex.*;
-
+//IDS - network based and host based intrusion detection system
+//IPS - network based and host based intrusion prevention system
+//Network based IDS - monitors network traffic for suspicious activity
+//Host based IDS - monitors a single host for suspicious activity
+//Network based IPS - monitors network traffic and can block malicious traffic
+//Host based IPS - monitors a single host and can block malicious activity
 /**
  * Data Leakage Detection System
  * Main class for detecting sensitive data in files and text
