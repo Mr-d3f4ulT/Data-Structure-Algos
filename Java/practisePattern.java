@@ -63,6 +63,63 @@ class pattern {
       System.out.println();
     }
   }
+  void palindromeTriangle(int n) {
+    for(i = 1; i <=n; i++) {
+      //Inner loop for printing spaces
+      for(j = 1; j <= 2*(n - i); j++) {
+        System.out.print(" ");
+      }
+      //Inner loop for printing decreasing numbers till 1
+      for(k = i; k >= 1; k--) {
+        System.out.print(k + " ");
+      }
+      //Inner loop for printing increasing numbers starting from 2 cause we alredy printed 1 in the previous loop
+      for(j = 2; j <= i; j++) {
+        System.out.print(j + " ");
+      }
+      System.out.println();
+    }
+  }
+  void rhombus(int n) {
+    for(i = 1; i <= n; i++) {
+      //Inner loop for spaces
+      for(j = 1; j <= n - i; j++) {
+        System.out.print(" ");
+      }
+      //Inner loop for printing stars
+      for(k = 1; k <= n; k++) {
+        System.out.print("* ");
+      }
+      System.out.println();
+    }
+  }
+  void diamondPattern(int n) {
+    //Outer loop for upper half of the diamond
+    for(i = 1; i <= n; i++) {
+      //Inner loop for spaces for upper half of the diamond
+      for(j = 1; j <= n - i; j++) {
+        System.out.print(" ");
+      }
+      //Inner loop for printing stars for upper half of the diamond
+      for(k = 1; k <= 2 * i - 1; k++) {
+        System.out.print("*");
+      }
+      System.out.println(); 
+    }
+
+    //Outer loop for lower half of the diamond
+    for(i = n - 1; i >= 1; i--) {
+      //Inner loop for spaces
+      for(j = 1; j <= n - i; j++) {
+        System.out.print(" ");
+      }
+      //Inner loop for printing stars
+      for(k = 1; k <= 2*i - 1; k++) {
+        System.out.print("*");
+      }
+      System.out.println(); 
+    }
+  }
 }
 public class practisePattern {
   public static void main(String[] args) {
@@ -72,6 +129,9 @@ public class practisePattern {
     //p.numberIncreasingPyramid(5);
     //p.numberIncreasingReversePyramid(5);
     //p.numberChangingPyramid(5); 
-    p.zeroOneTriangle(5);
+    //p.zeroOneTriangle(5);
+    //p.palindromeTriangle(5);
+    //p.rhombus(5);
+    p.diamondPattern(5);
   }
 }
