@@ -51,6 +51,18 @@ class pattern {
       System.out.println();
     }
   }
+  void zeroOneTriangle(int n) {
+    for(i = 1; i <= n; i++) {
+      for(j = 1; j <= i; j++) {
+        if((i + j) % 2 == 0) {
+          System.out.print("1 ");
+        } else {
+          System.out.print("0 ");
+        }
+      }
+      System.out.println();
+    }
+  }
 }
 public class practisePattern {
   public static void main(String[] args) {
@@ -59,6 +71,7 @@ public class practisePattern {
     //p.numberTraingular(5);
     //p.numberIncreasingPyramid(5);
     //p.numberIncreasingReversePyramid(5);
-    p.numberChangingPyramid(5); 
+    //p.numberChangingPyramid(5); 
+    p.zeroOneTriangle(5);
   }
 }
