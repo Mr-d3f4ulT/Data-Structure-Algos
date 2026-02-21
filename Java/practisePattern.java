@@ -24,21 +24,29 @@ class pattern {
       System.out.println();
     }
   }
-  public static void numberIncreasingPyramid(int n) {
+  void numberIncreasingPyramid(int n) {
     for(int i = 1; i <= n; i++) {
-      for(int j = i; j <= n; j++) {
+      for(int j = 1; j <= i; j++) {
         System.out.print(j + " ");
       }
       System.out.println();
     }
   }
-    
+  void numberIncreasingReversePyramid(int n) {
+    for(int i = 1; i <= n; i++) {
+      for(int j = 1; j <= n -i + 1; j++) {
+        System.out.print(j + " ");
+      }
+      System.out.println();
+    }
+  } 
 }
 public class practisePattern {
   public static void main(String[] args) {
     pattern p = new pattern();
     //p.squareHollow(5);
     //p.numberTraingular(5);
-    p.numberIncreasingPyramid(5);
+    //p.numberIncreasingPyramid(5);
+    p.numberIncreasingReversePyramid(5);
   }
 }
