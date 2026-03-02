@@ -33,11 +33,18 @@ print(f"Is the string numeric? {input_string.isdigit()}") #returns True if all c
 print(f"Is the string whitespace? {input_string.isspace()}") #returns True if all characters in the string are whitespace and there is at least one character, otherwise returns False
 print(f"Is string in uppercase? {input_string.isupper()}") #returns True if all caharacters in the string are uppercase and there is at least one character, otherwise returns False
 print(f"Is string in lowercase? {input_string.islower()}") #returns True if all characters in the string are lowercase and there is at least one character, otherwise returns False
+#find how mnay times a specific value occurs in string
+print(f"Number of times 'S' occurs: {input_string.count('S')}")
 
 print("*" * 50)
-phone_number = "123-456-7890"
-#find how mnay times a specific value occurs in string
-print(f"Number of times 'S' occurs: {phone_number.count('S')}")
-#replace '-' with ""
-print(f"Phone number without dashes: {phone_number.replace('-', '')}")
 
+#VALIDATE USER INPUT EXERCISE
+user_input = input("Enter a string: ")
+if len(user_input) < 5:
+    print("Input must be at least 5 characters long.")
+elif not user_input.isalnum():
+    print("Input must be alphanumeric.")
+elif not user_input.find( " ") == -1:
+    print("Input must not contain spaces.")
+else:
+    print(f"Welcome {user_input}")
