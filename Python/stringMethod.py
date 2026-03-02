@@ -34,6 +34,10 @@ print(f"Is the string whitespace? {input_string.isspace()}") #returns True if al
 print(f"Is string in uppercase? {input_string.isupper()}") #returns True if all caharacters in the string are uppercase and there is at least one character, otherwise returns False
 print(f"Is string in lowercase? {input_string.islower()}") #returns True if all characters in the string are lowercase and there is at least one character, otherwise returns False
 
+print("*" * 50)
+phone_number = "123-456-7890"
 #find how mnay times a specific value occurs in string
-print(f"Number of times 'S' occurs: {input_string.count('S')}") 
+print(f"Number of times 'S' occurs: {phone_number.count('S')}")
+#replace '-' with ""
+print(f"Phone number without dashes: {phone_number.replace('-', '')}")
 
