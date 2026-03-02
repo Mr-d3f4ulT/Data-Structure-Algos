@@ -35,4 +35,5 @@ print(f"Is string in uppercase? {input_string.isupper()}") #returns True if all 
 print(f"Is string in lowercase? {input_string.islower()}") #returns True if all characters in the string are lowercase and there is at least one character, otherwise returns False
 
 #find how mnay times a specific value occurs in string
-print(f"Number of times 'a' occurs: {input_string.count('S')}") 
+print(f"Number of times 'S' occurs: {input_string.count('S')}") 
+
