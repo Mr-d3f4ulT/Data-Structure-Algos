@@ -33,3 +33,6 @@ print(f"Is the string numeric? {input_string.isdigit()}") #returns True if all c
 print(f"Is the string whitespace? {input_string.isspace()}") #returns True if all characters in the string are whitespace and there is at least one character, otherwise returns False
 print(f"Is string in uppercase? {input_string.isupper()}") #returns True if all caharacters in the string are uppercase and there is at least one character, otherwise returns False
 print(f"Is string in lowercase? {input_string.islower()}") #returns True if all characters in the string are lowercase and there is at least one character, otherwise returns False
+
+#find how mnay times a specific value occurs in string
+print(f"Number of times 'a' occurs: {input_string.count('S')}") 
