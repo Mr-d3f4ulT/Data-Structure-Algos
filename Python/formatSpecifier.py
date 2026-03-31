@@ -16,8 +16,8 @@ number = 1234.56789
 print(f"Rounded number to 2 decimal places: {number:.2f}")
 
 #padding the number with zeros to make it 10 characters long, for n characters, use 0n where n is the number of characters you want to pad to
-print(f"Number padded with zeros to 10 characters: {number:010.2f}")
+print(f"Number padded with zeros to 10 characters: {6168:010}")
 
 #allocate n spaces for the number, for n spaces, use n where n is the number of spaces you want to allocate
-print(f"Number allocated 15 spaces: {number:15.2f}")
+print(f"Number allocated 15 spaces: {3654168:15}")
 
