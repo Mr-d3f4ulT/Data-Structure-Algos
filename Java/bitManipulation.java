@@ -20,13 +20,14 @@ class bitManipulationProblems {
 }
 public class bitManipulation {
   public static void main(String[] args) {
-    bitManipulationProblems obj = new bitManipulationProblems();
-    int n = 10;
-    String binary = obj.IntegertoBinary(n);
-    System.out.println("Binary representation of " + n + " is: " + binary);
+    // bitManipulationProblems obj = new bitManipulationProblems();
+    // int n = 10;
+    // String binary = obj.IntegertoBinary(n);
+    // System.out.println("Binary representation of " + n + " is: " + binary);
     
-    String binaryString = "1010";
-    int decimalValue = obj.BianryToDecimal(binaryString);
-    System.out.println("Decimal value of binary string " + binaryString + " is: " + decimalValue);
+    // String binaryString = "1010";
+    // int decimalValue = obj.BianryToDecimal(binaryString);
+    // System.out.println("Decimal value of binary string " + binaryString + " is: " + decimalValue);
+
   }
 }
