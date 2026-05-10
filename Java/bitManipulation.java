@@ -28,6 +28,5 @@ public class bitManipulation {
     // String binaryString = "1010";
     // int decimalValue = obj.BianryToDecimal(binaryString);
     // System.out.println("Decimal value of binary string " + binaryString + " is: " + decimalValue);
-
   }
 }
