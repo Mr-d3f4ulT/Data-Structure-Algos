@@ -15,32 +15,48 @@
 
 # print("Goodbye!")    
 
-num = int(input("Enter a number between 1 - 10 :-"))
+# num = int(input("Enter a number between 1 - 10 :-"))
 
-while num < 1 or num > 10:
-    print("Invalid number, try again.")
-    num = int(input("Enter a number between 1 - 10 :-"))
+# while num < 1 or num > 10:
+#     print("Invalid number, try again.")
+#     num = int(input("Enter a number between 1 - 10 :-"))
 
 # FOR LOOP
 
-for i in range(5): #loop starts at 0 and ends at 4
-    if i == 2:
-        continue
-    print(f"i is currently {i}")
+# for i in range(5): #loop starts at 0 and ends at 4
+#     if i == 2:
+#         continue
+#     print(f"i is currently {i}")
 
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-  print(x)
-  if x == "banana":
-    break 
+# fruits = ["apple", "banana", "cherry"]
+# for x in fruits:
+#   print(x)
+#   if x == "banana":
+#     break 
 
-for x in "banana":
-  print(x)
-  if x == 'a':
-    print("@")
+# for x in "banana":
+#   print(x)
+#   if x == 'a':
+#     print("@")
 
-for i in range(1, 11):  #loop starts at 1 and ends at 10
-    print(i)
+# for i in range(1, 11):  #loop starts at 1 and ends at 10
+#     print(i)
 
-for i in range(1, 11, 2):  #loop starts at 1, ends at 10 and increments by 2
-    print(i)
+# for i in range(1, 11, 2):  #loop starts at 1, ends at 10 and increments by 2
+#     print(i)
+
+
+#EXERCISE 1 : 
+# Print all numbers from 0 to 5, and print a message when the loop has ended:
+
+for x in range(6):
+  print(x, end=" ")
+else:
+  print("\nFinally finished!")
+
+i = 0
+while i < 6:
+  print(i, end=" ")
+  i += 1
+else:
+  print("\nFinally finished!")
