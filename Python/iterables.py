@@ -33,11 +33,7 @@ print()
 #DICTIONARY
 student = {
     "name": "Shivansh",
-    "age": 22
-}
-student = {
-    "name": "Shivansh",
-    "age": 22
+    "age": 24
 }
 
 for key in student:
