@@ -37,3 +37,28 @@ print("We will learn conditional statements in python")
 num = 5
 result = "Even" if num % 2 == 0 else "Odd"
 print(f"The number {num} is {result}")
+
+#SWITCH CASE : An alternative to  using many 'elif' statements 
+#              Execute some code if a value matches a case
+#              Benefits : Cleaner and syntax more readable
+
+def day_of_week(day):
+  match day:
+    case 1:
+      return "Sunday"
+    case 2:
+      return "Monday"
+    case 3:
+      return "Tuesday"
+    case 4:
+      return "Wednesday"
+    case 5:
+      return "Thrusday"
+    case 6:
+      return "Friday"
+    case 7:
+      return "Saturday"
+    case _:
+      return "Not Valid Day"
+    
+print(day_of_week(2))
