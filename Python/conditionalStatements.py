@@ -61,4 +61,14 @@ def day_of_week(day):
     case _:
       return "Not Valid Day"
     
+def type_of_day(day):
+  match day:
+    case "Sunday" | "Saturday":
+      return "Weekend"
+    case "Monday" | "Tuesday" | "Wednesday" | "Thrusday" | "Friday":
+      return "Weekday"
+    case _:
+      return "Not Valid Day"
+    
 print(day_of_week(2))
+print(type_of_day("Monday"))
