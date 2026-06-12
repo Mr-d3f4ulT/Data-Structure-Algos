@@ -137,23 +137,23 @@ def main():
         choice = input("Enter your choice (1-7): ")
 
         match choice:
-          case "1":
-              show_account_summary(account_name, balance, transactions)
-          case "2":
-              balance = deposit(balance, transactions)
-          case "3":
-              balance = withdraw(balance, transactions)
-          case "4":
-              balance = calculate_interest(balance, transactions)
-          case "5":
-              balance = apply_monthly_fee(balance, transactions)
-          case "6":
-              show_transaction_history(transactions)
-          case "7":
-              is_running = False
-              print("Thank you! Have a nice day.")
-          case _:
-              print("Invalid choice. Please enter a number from 1 to 7.")
+            case "1":
+                show_account_summary(account_name, balance, transactions)
+            case "2":
+                balance = deposit(balance, transactions)
+            case "3":
+                balance = withdraw(balance, transactions)
+            case "4":
+                balance = calculate_interest(balance, transactions)
+            case "5":
+                balance = apply_monthly_fee(balance, transactions)
+            case "6":
+                show_transaction_history(transactions)
+            case "7":
+                is_running = False
+                print("Thank you! Have a nice day.")
+            case _:
+                print("Invalid choice. Please enter a number from 1 to 7.")
 
 
 if __name__ == "__main__":
